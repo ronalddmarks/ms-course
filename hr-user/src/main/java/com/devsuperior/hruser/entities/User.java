@@ -42,12 +42,12 @@ public class User implements Serializable {
 		
 	}
 
-	public User(Long id, String name, String email, String passowed) {
+	public User(Long id, String name, String email, String password) {
 		super();
 		this.id = id;
 		this.name = name;
 		this.email = email;
-		this.password = passowed;
+		this.password = password;
 	}
 	
 	
